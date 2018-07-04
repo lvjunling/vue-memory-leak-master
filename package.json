@@ -1,0 +1,25 @@
+{
+  "name": "vue-memory-leak-master",
+  "version": "1.0.0",
+  "description": "vue-server-render memory-leak",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvjunling/vue-memory-leak-master.git"
+  },
+  "author": "lvjl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvjunling/vue-memory-leak-master/issues"
+  },
+  "homepage": "https://github.com/lvjunling/vue-memory-leak-master#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "v8-profiler-node8": "^6.0.0",
+    "vue": "2.2.6",
+    "vue-server-renderer": "2.2.6"
+  }
+}
